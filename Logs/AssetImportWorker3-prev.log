@@ -1,0 +1,1722 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.22f1 (887be4894c44) revision 8944612'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'ru' Physical Memory: 32474 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/GP_4.1/UnderwaterPipelineTracker
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+53404
+Successfully changed project path to: C:/Users/GP_4.1/UnderwaterPipelineTracker
+C:/Users/GP_4.1/UnderwaterPipelineTracker
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [27044] Host "[IP] 192.168.31.213 [Port] 0 [Flags] 2 [Guid] 884940516 [EditorId] 884940516 [Version] 1048832 [Id] WindowsEditor(7,GP-4v2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [27044] Host "[IP] 192.168.31.213 [Port] 0 [Flags] 2 [Guid] 884940516 [EditorId] 884940516 [Version] 1048832 [Id] WindowsEditor(7,GP-4v2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 11.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.22f1 (887be4894c44)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/GP_4.1/UnderwaterPipelineTracker/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
+    Vendor:   NVIDIA
+    VRAM:     8018 MB
+    Driver:   32.0.15.7602
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56032
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005850 seconds.
+- Loaded All Assemblies, in  0.299 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 271 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.564 seconds
+Domain Reload Profiling: 862ms
+	BeginReloadAssembly (84ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (125ms)
+		LoadAssemblies (81ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (123ms)
+			TypeCache.Refresh (122ms)
+				TypeCache.ScanAssembly (112ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (564ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (512ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (364ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (99ms)
+			ProcessInitializeOnLoadMethodAttributes (44ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.609 seconds
+Refreshing native plugins compatible for Editor in 3.52 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.634 seconds
+Domain Reload Profiling: 1242ms
+	BeginReloadAssembly (132ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (23ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (393ms)
+		LoadAssemblies (257ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (209ms)
+			TypeCache.Refresh (181ms)
+				TypeCache.ScanAssembly (168ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (635ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (476ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (23ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (307ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 3.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5168 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 67 unused Assets / (349.6 KB). Loaded Objects now: 5629.
+Memory consumption went from 215.2 MB to 214.8 MB.
+Total: 5.868000 ms (FindLiveObjects: 0.484400 ms CreateObjectMapping: 0.129300 ms MarkObjects: 5.076400 ms  DeleteObjects: 0.177400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 91427.971980 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Dark to Light Green - Vertical.asset
+  artifactKey: Guid(4c86a3366cd840348ebe8dc438570ee4) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Dark to Light Green - Vertical.asset using Guid(4c86a3366cd840348ebe8dc438570ee4) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)  -> (artifact id: '8e65c05eb14e5aeb51b1cc3580f19519') in 0.136466 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Samples/Universal RP/14.0.10/URP Package Samples/SharedAssets/Settings/Global Volume Profile.asset
+  artifactKey: Guid(ff8527d309d1d49598d1b259a43975d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Universal RP/14.0.10/URP Package Samples/SharedAssets/Settings/Global Volume Profile.asset using Guid(ff8527d309d1d49598d1b259a43975d2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fa528b123e2aa82d2c279d9ca39c3f9f') in 0.049382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Samples/Universal RP/14.0.10/URP Package Samples/RendererFeatures/GlitchEffect/GlitchEffect
+  artifactKey: Guid(97c27239cfc614be48151b897f78cde7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Universal RP/14.0.10/URP Package Samples/RendererFeatures/GlitchEffect/GlitchEffect using Guid(97c27239cfc614be48151b897f78cde7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a084146120e072a0a850ba78e289a9ec') in 0.009747 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/YughuesFreeSandMaterials/Preview/P_Sphere_01.prefab
+  artifactKey: Guid(e997fa9f4e1bfd44882074e9e02cfe60) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/YughuesFreeSandMaterials/Preview/P_Sphere_01.prefab using Guid(e997fa9f4e1bfd44882074e9e02cfe60) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)  -> (artifact id: 'a9215e0232ed270316684e2112094f14') in 0.030939 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Manometr.prefab
+  artifactKey: Guid(6bc7ed713a0a5ee4cab6a682a68e522d) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Manometr.prefab using Guid(6bc7ed713a0a5ee4cab6a682a68e522d) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)  -> (artifact id: '95038f3b8d45adac7daa6d6dd8794b06') in 0.038563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Samples/Universal RP/14.0.10/URP Package Samples/SharedAssets/Shaders/URPMainLight_Graph.shadersubgraph
+  artifactKey: Guid(d2bd6acdfd61c443ebab517aa89164fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Universal RP/14.0.10/URP Package Samples/SharedAssets/Shaders/URPMainLight_Graph.shadersubgraph using Guid(d2bd6acdfd61c443ebab517aa89164fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3c85d57e4bc2f66e0360fc463404e6f5') in 0.033366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/Samples/Universal RP/14.0.10/URP Package Samples/CameraStacking/SplitScreen/SplitScreen.unity
+  artifactKey: Guid(2e377123eac7e443ebe0e7374f21089a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Universal RP/14.0.10/URP Package Samples/CameraStacking/SplitScreen/SplitScreen.unity using Guid(2e377123eac7e443ebe0e7374f21089a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4c5ed9519cc08ec70d18b57c67fe1824') in 0.008331 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000245 seconds.
+  path: Assets/Samples/Universal RP/14.0.10/URP Package Samples/LensFlares/LensFlarePresets/Anamorphic_Sci-Fi2.asset
+  artifactKey: Guid(6ea69a3b6dca24c8b8defffd0de4585b) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Samples/Universal RP/14.0.10/URP Package Samples/LensFlares/LensFlarePresets/Anamorphic_Sci-Fi2.asset using Guid(6ea69a3b6dca24c8b8defffd0de4585b) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)  -> (artifact id: 'dacda24d2329037a19cbdc7082c3c92e') in 0.027095 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000541 seconds.
+  path: Assets/Samples/Universal RP/14.0.10/URP Package Samples/LensFlares/LensFlarePresets/Anamorphic_Sci-Fi.asset
+  artifactKey: Guid(cf0f5a43e97c04cc390b534001715eb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Universal RP/14.0.10/URP Package Samples/LensFlares/LensFlarePresets/Anamorphic_Sci-Fi.asset using Guid(cf0f5a43e97c04cc390b534001715eb2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ed15ec44dfb26303ffc41fffd435e423') in 0.024406 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Samples/Universal RP/14.0.10/URP Package Samples/RendererFeatures/GlitchEffect/Glitch_Renderer.asset
+  artifactKey: Guid(fe0805910be03443e8db5511136ece6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Universal RP/14.0.10/URP Package Samples/RendererFeatures/GlitchEffect/Glitch_Renderer.asset using Guid(fe0805910be03443e8db5511136ece6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '56128fe91858a3524088ff632bda1df1') in 0.051575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Micro_Sub/Scenes/DemoScene.unity
+  artifactKey: Guid(52b70252dcbba9143a67295ffd273283) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Micro_Sub/Scenes/DemoScene.unity using Guid(52b70252dcbba9143a67295ffd273283) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Opening scene 'Assets/Micro_Sub/Scenes/DemoScene.unity additively'
+LightingSettings: switching bake backend from 1 to 0.
+Loaded scene 'Assets/Micro_Sub/Scenes/DemoScene.unity'
+	Deserialize:            6.090 ms
+	Integration:            26.124 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.011 ms
+	Total Operation Time:   32.226 ms
+ -> (artifact id: '008ae923ca0398605186f1f9ea320f54') in 0.062660 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.051524 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 2.prefab
+  artifactKey: Guid(fdad9d952ae84cafb74c63f2e694d042) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 2.prefab using Guid(fdad9d952ae84cafb74c63f2e694d042) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) The method get_fontSharedMaterials was not found on TextMeshPro - Prefab 2. This property will not be indexed.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEditor.Rendering.Universal.MaterialReferenceBuilder:GetMaterialFromMethod (System.Reflection.MethodInfo,UnityEngine.Object,System.Func`3<string, string, string>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.10/Editor/Converter/MaterialReferenceBuilder.cs:133)
+UnityEditor.Rendering.Universal.ConversionIndexers:ConversionIndexer (UnityEditor.Search.CustomObjectIndexerTarget,UnityEditor.Search.ObjectIndexer) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.10/Editor/Converter/ConversionIndexers.cs:21)
+UnityEditor.Search.ObjectIndexer:CallCustomIndexers (string,int,UnityEngine.Object,UnityEditor.SerializedObject,bool)
+UnityEditor.Search.ObjectIndexer:IndexCustomProperties (string,int,UnityEngine.Object)
+UnityEditor.Search.AssetIndexer:IndexCustomGameObjectProperties (string,int,UnityEngine.GameObject)
+UnityEditor.Search.AssetIndexer:IndexObjects (UnityEngine.GameObject[],string,string,string,bool)
+UnityEditor.Search.AssetIndexer:IndexPrefab (string,bool)
+UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.10/Editor/Converter/MaterialReferenceBuilder.cs Line: 133)
+
+ -> (artifact id: 'fef2ed3624f3e27680e204966aff0562') in 0.050716 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.008463 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/04 - Word Wrapping.unity
+  artifactKey: Guid(8f7137eacd7042d5b17ef0efe5e744f5) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/04 - Word Wrapping.unity using Guid(8f7137eacd7042d5b17ef0efe5e744f5) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Opening scene 'Assets/TextMesh Pro/Examples & Extras/Scenes/04 - Word Wrapping.unity additively'
+Loaded scene 'Assets/TextMesh Pro/Examples & Extras/Scenes/04 - Word Wrapping.unity'
+	Deserialize:            23.004 ms
+	Integration:            27.240 ms
+	Integration of assets:  0.781 ms
+	Thread Wait Time:       0.012 ms
+	Total Operation Time:   51.037 ms
+ -> (artifact id: '96b6f4524be94bb2be7800eba4ee64f6') in 0.065147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Samples/Universal RP
+  artifactKey: Guid(aad001a992f91fc44a87bef7c4dd9f06) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Universal RP using Guid(aad001a992f91fc44a87bef7c4dd9f06) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '02715c1c0836b8e8c977026dd01f610a') in 0.008360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/16 - Linked text overflow mode example.unity
+  artifactKey: Guid(9442cda25baa4a0bb544c4d095b00caa) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/16 - Linked text overflow mode example.unity using Guid(9442cda25baa4a0bb544c4d095b00caa) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Opening scene 'Assets/TextMesh Pro/Examples & Extras/Scenes/16 - Linked text overflow mode example.unity additively'
+LightingSettings: switching bake backend from 1 to 0.
+Loaded scene 'Assets/TextMesh Pro/Examples & Extras/Scenes/16 - Linked text overflow mode example.unity'
+	Deserialize:            38.499 ms
+	Integration:            13.355 ms
+	Integration of assets:  1.081 ms
+	Thread Wait Time:       0.011 ms
+	Total Operation Time:   52.946 ms
+ -> (artifact id: '66f89b49399a2be1c84fc9560e4263a3') in 0.067674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/Universal RP/14.0.10/URP Package Samples/Decals/PaintSplat/WorldSpaceUV.shadersubgraph
+  artifactKey: Guid(4e7100eadfb604b5dafdeb24acba5c3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Universal RP/14.0.10/URP Package Samples/Decals/PaintSplat/WorldSpaceUV.shadersubgraph using Guid(4e7100eadfb604b5dafdeb24acba5c3a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '257341229011c4008e7a478246d08ab9') in 0.019479 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Samples/Universal RP/14.0.10/URP Package Samples/LensFlares/LensFlarePresets/Simple.asset
+  artifactKey: Guid(460af2ce1cdba4b799061fcd1ac4707b) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Samples/Universal RP/14.0.10/URP Package Samples/LensFlares/LensFlarePresets/Simple.asset using Guid(460af2ce1cdba4b799061fcd1ac4707b) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)  -> (artifact id: 'eb8b564b4f62afb9b371d875a2770238') in 0.015659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000547 seconds.
+  path: Assets/Samples/Universal RP/14.0.10/URP Package Samples/Lighting/Reflection Probes/Reflection Probes
+  artifactKey: Guid(f5b1b28b9e28ca049b57492dcb662473) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Universal RP/14.0.10/URP Package Samples/Lighting/Reflection Probes/Reflection Probes using Guid(f5b1b28b9e28ca049b57492dcb662473) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0daa0e0697ef500ae97798b986042007') in 0.009654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000552 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/23 - Animating Vertex Attributes.unity
+  artifactKey: Guid(54e994244b4b467e8583cf2da6dcc716) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/23 - Animating Vertex Attributes.unity using Guid(54e994244b4b467e8583cf2da6dcc716) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Opening scene 'Assets/TextMesh Pro/Examples & Extras/Scenes/23 - Animating Vertex Attributes.unity additively'
+LightingSettings: switching bake backend from 1 to 0.
+Loaded scene 'Assets/TextMesh Pro/Examples & Extras/Scenes/23 - Animating Vertex Attributes.unity'
+	Deserialize:            22.854 ms
+	Integration:            20.220 ms
+	Integration of assets:  0.198 ms
+	Thread Wait Time:       0.028 ms
+	Total Operation Time:   43.300 ms
+ -> (artifact id: '0fc91ab458b67fc2ba17f33d9219f1d1') in 0.053823 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000541 seconds.
+  path: Assets/Samples/Universal RP/14.0.10/URP Package Samples/Shaders/Lit/Lit/LitLighting.lighting
+  artifactKey: Guid(cce5fc22d530544e9baddea9febf9776) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Universal RP/14.0.10/URP Package Samples/Shaders/Lit/Lit/LitLighting.lighting using Guid(cce5fc22d530544e9baddea9febf9776) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '624602b25fb6c9e51f2f6d549466a0c8') in 0.032473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.011919 seconds.
+  path: Assets/Samples/Universal RP/14.0.10/URP Package Samples/RendererFeatures/TrailEffect/Sand.mat
+  artifactKey: Guid(4438bff2a20e74932b90b2af6762b849) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Universal RP/14.0.10/URP Package Samples/RendererFeatures/TrailEffect/Sand.mat using Guid(4438bff2a20e74932b90b2af6762b849) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ec401f3e74febb6e64fbdff4b2ea87be') in 0.039494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.00/Prefabs/Pipe_01.prefab
+  artifactKey: Guid(288792e05dc3ff249b95aa5b607b4b45) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.00/Prefabs/Pipe_01.prefab using Guid(288792e05dc3ff249b95aa5b607b4b45) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)  -> (artifact id: '9bba0f1dbb1ff66c94b3d3732aa0c1c6') in 0.034199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Samples/Universal RP/14.0.10/URP Package Samples/LensFlares/Textures/Shimmer.png
+  artifactKey: Guid(fc0e248a658684c3e8fe68d5931552b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Universal RP/14.0.10/URP Package Samples/LensFlares/Textures/Shimmer.png using Guid(fc0e248a658684c3e8fe68d5931552b9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '53f362ed6ffdb07b360a9168706048f2') in 0.041371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.071443 seconds.
+  path: Assets/Samples/Universal RP/14.0.10/URP Package Samples/Decals/BlobShadow/BlobShadowPipeline.asset
+  artifactKey: Guid(bc572d40b13ec4166b317d799f6e960a) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Samples/Universal RP/14.0.10/URP Package Samples/Decals/BlobShadow/BlobShadowPipeline.asset using Guid(bc572d40b13ec4166b317d799f6e960a) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)  -> (artifact id: 'd3cb5a31106297102b300ac6047ce533') in 0.010690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.112459 seconds.
+  path: Assets/Samples/Universal RP/14.0.10/URP Package Samples/Decals/ProxyLighting/Materials/BlueSpotlight.mat
+  artifactKey: Guid(c648de8231cde4fdfa786d06e5d8ad57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Universal RP/14.0.10/URP Package Samples/Decals/ProxyLighting/Materials/BlueSpotlight.mat using Guid(c648de8231cde4fdfa786d06e5d8ad57) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a8657f4da4914e68b2648f0bf40d39bb') in 0.028897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Samples/Universal RP/14.0.10/URP Package Samples/RendererFeatures/TrailEffect/TrailEffect_Pipeline.asset
+  artifactKey: Guid(3fa182c0ab14944118296b77553eb4de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Universal RP/14.0.10/URP Package Samples/RendererFeatures/TrailEffect/TrailEffect_Pipeline.asset using Guid(3fa182c0ab14944118296b77553eb4de) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'abba2c488c435c43ff9d203ffc093e2c') in 0.084444 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Samples/Universal RP/14.0.10/URP Package Samples/LensFlares/LensFlarePresets/Sci-Fi.asset
+  artifactKey: Guid(cc12bb78d703b41fc991a32d4a3638ff) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Samples/Universal RP/14.0.10/URP Package Samples/LensFlares/LensFlarePresets/Sci-Fi.asset using Guid(cc12bb78d703b41fc991a32d4a3638ff) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)  -> (artifact id: '037bf4e134f71a9683ad3995c5f1fb05') in 0.018107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/Universal RP/14.0.10/URP Package Samples/SharedAssets/Scripts
+  artifactKey: Guid(57d8db54828bf4250bd09360c72a0060) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Universal RP/14.0.10/URP Package Samples/SharedAssets/Scripts using Guid(57d8db54828bf4250bd09360c72a0060) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '634e108b9d78ee4558485f06af40762d') in 0.009597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000701 seconds.
+  path: Assets/Micro_Sub/Prefabs/Micro_Sub.prefab
+  artifactKey: Guid(c9c10e442362b304fa498afd8bec3b1c) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Micro_Sub/Prefabs/Micro_Sub.prefab using Guid(c9c10e442362b304fa498afd8bec3b1c) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)  -> (artifact id: '0aeb6c0a060ec772205eb4c9548b7f47') in 0.010561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.00/Prefabs/Pipe_08.prefab
+  artifactKey: Guid(16f7f0bbbcdb67d4c97374d9514580dc) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.00/Prefabs/Pipe_08.prefab using Guid(16f7f0bbbcdb67d4c97374d9514580dc) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)  -> (artifact id: '34933f4262b9d759a823e61d0ae4e152') in 0.035972 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Example/Scene/Scene.unity
+  artifactKey: Guid(d9af48fc872c51d42a48a89f7e5f169f) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Example/Scene/Scene.unity using Guid(d9af48fc872c51d42a48a89f7e5f169f) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Opening scene 'Assets/3D Models/Props/Industrial/Pipeline/Example/Scene/Scene.unity additively'
+Loaded scene 'Assets/3D Models/Props/Industrial/Pipeline/Example/Scene/Scene.unity'
+	Deserialize:            8.730 ms
+	Integration:            543.125 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       0.012 ms
+	Total Operation Time:   551.870 ms
+ -> (artifact id: '97e6905aaa813851b086f2410c4b41a2') in 0.578588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 679
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Samples/Universal RP/14.0.10/URP Package Samples/Lighting/Reflection Probes/Reflection_Pipeline.asset
+  artifactKey: Guid(f4a24ee32ac073d43b943d8577d61edd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Universal RP/14.0.10/URP Package Samples/Lighting/Reflection Probes/Reflection_Pipeline.asset using Guid(f4a24ee32ac073d43b943d8577d61edd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e0083e8eba655b7dc283757d12925e6b') in 0.031293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001523 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/21 - Script Example.unity
+  artifactKey: Guid(50f52f9274434ecfb34dd87f0836f323) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/21 - Script Example.unity using Guid(50f52f9274434ecfb34dd87f0836f323) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Opening scene 'Assets/TextMesh Pro/Examples & Extras/Scenes/21 - Script Example.unity additively'
+LightingSettings: switching bake backend from 1 to 0.
+Loaded scene 'Assets/TextMesh Pro/Examples & Extras/Scenes/21 - Script Example.unity'
+	Deserialize:            7.050 ms
+	Integration:            0.398 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.014 ms
+	Total Operation Time:   7.464 ms
+ -> (artifact id: 'a010c1ac8d44be72c40a75d135d08599') in 0.016789 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.00/Prefabs/Pipe_07.prefab
+  artifactKey: Guid(68c90987ce68a2f45b272caeb109a9b0) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.00/Prefabs/Pipe_07.prefab using Guid(68c90987ce68a2f45b272caeb109a9b0) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)  -> (artifact id: '71809403e1a11420b13618c65a88ff42') in 0.026081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000422 seconds.
+  path: Assets/Samples/Universal RP/14.0.10/URP Package Samples/LensFlares
+  artifactKey: Guid(9fc71db9d8ef24b299a0d6166e040406) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Universal RP/14.0.10/URP Package Samples/LensFlares using Guid(9fc71db9d8ef24b299a0d6166e040406) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'de9568a0fe725cd6bc1379db1298c0fe') in 0.010740 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Samples/Universal RP/14.0.10/URP Package Samples/Decals/ProxyLighting/ProxyLightingPipeline_Renderer.asset
+  artifactKey: Guid(7cff376ab52df4ec2851903e4b87d286) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Universal RP/14.0.10/URP Package Samples/Decals/ProxyLighting/ProxyLightingPipeline_Renderer.asset using Guid(7cff376ab52df4ec2851903e4b87d286) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6fa7ce61062e8e43bcbe69be9f7f0ea2') in 0.035993 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.021180 seconds.
+  path: Assets/Samples/Universal RP/14.0.10/URP Package Samples/LensFlares/LensFlarePresets/50mm.asset
+  artifactKey: Guid(a8b7db83f8a9c4835ac1d003d5628a85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Universal RP/14.0.10/URP Package Samples/LensFlares/LensFlarePresets/50mm.asset using Guid(a8b7db83f8a9c4835ac1d003d5628a85) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b109db526581fe48abb0b47539022b6c') in 0.018148 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.023094 seconds.
+  path: Assets/Samples/Universal RP/14.0.10/URP Package Samples/Shaders/Lit/Prefabs/3Podium.prefab
+  artifactKey: Guid(7689a0ffc4ed74a58b7298d31e1d3283) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Universal RP/14.0.10/URP Package Samples/Shaders/Lit/Prefabs/3Podium.prefab using Guid(7689a0ffc4ed74a58b7298d31e1d3283) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f30f8112dbc060a31ca8877bec5db50f') in 0.025142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 49
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/26 - Dropdown Placeholder Example.unity
+  artifactKey: Guid(0851605490a599b46b6ac5cb681d93ea) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/26 - Dropdown Placeholder Example.unity using Guid(0851605490a599b46b6ac5cb681d93ea) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Opening scene 'Assets/TextMesh Pro/Examples & Extras/Scenes/26 - Dropdown Placeholder Example.unity additively'
+LightingSettings: switching bake backend from 1 to 0.
+Loaded scene 'Assets/TextMesh Pro/Examples & Extras/Scenes/26 - Dropdown Placeholder Example.unity'
+	Deserialize:            27.465 ms
+	Integration:            3.241 ms
+	Integration of assets:  0.386 ms
+	Thread Wait Time:       0.026 ms
+	Total Operation Time:   31.117 ms
+The method get_fontSharedMaterials was not found on Item Label. This property will not be indexed.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEditor.Rendering.Universal.MaterialReferenceBuilder:GetMaterialFromMethod (System.Reflection.MethodInfo,UnityEngine.Object,System.Func`3<string, string, string>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.10/Editor/Converter/MaterialReferenceBuilder.cs:133)
+UnityEditor.Rendering.Universal.ConversionIndexers:ConversionIndexer (UnityEditor.Search.CustomObjectIndexerTarget,UnityEditor.Search.ObjectIndexer) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.10/Editor/Converter/ConversionIndexers.cs:21)
+UnityEditor.Search.ObjectIndexer:CallCustomIndexers (string,int,UnityEngine.Object,UnityEditor.SerializedObject,bool)
+UnityEditor.Search.ObjectIndexer:IndexCustomProperties (string,int,UnityEngine.Object)
+UnityEditor.Search.AssetIndexer:IndexCustomGameObjectProperties (string,int,UnityEngine.GameObject)
+UnityEditor.Search.AssetIndexer:IndexObjects (UnityEngine.GameObject[],string,string,string,bool)
+UnityEditor.Search.AssetIndexer:IndexScene (string,bool)
+UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.10/Editor/Converter/MaterialReferenceBuilder.cs Line: 133)
+
+The method get_fontSharedMaterials was not found on Item Label. This property will not be indexed.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEditor.Rendering.Universal.MaterialReferenceBuilder:GetMaterialFromMethod (System.Reflection.MethodInfo,UnityEngine.Object,System.Func`3<string, string, string>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.10/Editor/Converter/MaterialReferenceBuilder.cs:133)
+UnityEditor.Rendering.Universal.ConversionIndexers:ConversionIndexer (UnityEditor.Search.CustomObjectIndexerTarget,UnityEditor.Search.ObjectIndexer) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.10/Editor/Converter/ConversionIndexers.cs:21)
+UnityEditor.Search.ObjectIndexer:CallCustomIndexers (string,int,UnityEngine.Object,UnityEditor.SerializedObject,bool)
+UnityEditor.Search.ObjectIndexer:IndexCustomProperties (string,int,UnityEngine.Object)
+UnityEditor.Search.AssetIndexer:IndexCustomGameObjectProperties (string,int,UnityEngine.GameObject)
+UnityEditor.Search.AssetIndexer:IndexObjects (UnityEngine.GameObject[],string,string,string,bool)
+UnityEditor.Search.AssetIndexer:IndexScene (string,bool)
+UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.10/Editor/Converter/MaterialReferenceBuilder.cs Line: 133)
+
+ -> (artifact id: '0fa2791b02278defc87a4e63cea9bfc5') in 0.051482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Samples/Universal RP/14.0.10/URP Package Samples/RendererFeatures/BlitToRTHandle/BlitToRTHandle.unity
+  artifactKey: Guid(8da0dc751e2a2d34e939aa822adfd0cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Universal RP/14.0.10/URP Package Samples/RendererFeatures/BlitToRTHandle/BlitToRTHandle.unity using Guid(8da0dc751e2a2d34e939aa822adfd0cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '00d43931c830da40718d80a7a18dd8ec') in 0.011204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/Universal RP/14.0.10/URP Package Samples/RendererFeatures/TrailEffect/Animation/KeepFrame.anim
+  artifactKey: Guid(c1278227dfd4142caa1871f93a6638b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Universal RP/14.0.10/URP Package Samples/RendererFeatures/TrailEffect/Animation/KeepFrame.anim using Guid(c1278227dfd4142caa1871f93a6638b5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '594864f277e4ee8546b9a280bb3f1dee') in 0.025851 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Samples/Universal RP/14.0.10/URP Package Samples/LensFlares/LensFlarePresets/Sci-Fi.asset
+  artifactKey: Guid(cc12bb78d703b41fc991a32d4a3638ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Universal RP/14.0.10/URP Package Samples/LensFlares/LensFlarePresets/Sci-Fi.asset using Guid(cc12bb78d703b41fc991a32d4a3638ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8bda1ec6fbdb99d063439195041e37d1') in 0.010911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Samples/Universal RP/14.0.10/URP Package Samples/Shaders/Lit/Prefabs/6Podium.prefab
+  artifactKey: Guid(a62ae87b83afd45458e3e92c3f072830) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Universal RP/14.0.10/URP Package Samples/Shaders/Lit/Prefabs/6Podium.prefab using Guid(a62ae87b83afd45458e3e92c3f072830) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6304f5db04d21569094cb4035db91960') in 0.014535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 88
+========================================================================
+Received Import Request.
+  Time since last request: 0.000108 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/09 - Margin Tag Example.unity
+  artifactKey: Guid(349f38d3606449708c7340d26740e1e2) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/09 - Margin Tag Example.unity using Guid(349f38d3606449708c7340d26740e1e2) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Opening scene 'Assets/TextMesh Pro/Examples & Extras/Scenes/09 - Margin Tag Example.unity additively'
+LightingSettings: switching bake backend from 1 to 0.
+Loaded scene 'Assets/TextMesh Pro/Examples & Extras/Scenes/09 - Margin Tag Example.unity'
+	Deserialize:            22.339 ms
+	Integration:            2.118 ms
+	Integration of assets:  0.400 ms
+	Thread Wait Time:       0.008 ms
+	Total Operation Time:   24.865 ms
+The method get_fontSharedMaterials was not found on TextMeshPro. This property will not be indexed.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+UnityEditor.Rendering.Universal.MaterialReferenceBuilder:GetMaterialFromMethod (System.Reflection.MethodInfo,UnityEngine.Object,System.Func`3<string, string, string>) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.10/Editor/Converter/MaterialReferenceBuilder.cs:133)
+UnityEditor.Rendering.Universal.ConversionIndexers:ConversionIndexer (UnityEditor.Search.CustomObjectIndexerTarget,UnityEditor.Search.ObjectIndexer) (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.10/Editor/Converter/ConversionIndexers.cs:21)
+UnityEditor.Search.ObjectIndexer:CallCustomIndexers (string,int,UnityEngine.Object,UnityEditor.SerializedObject,bool)
+UnityEditor.Search.ObjectIndexer:IndexCustomProperties (string,int,UnityEngine.Object)
+UnityEditor.Search.AssetIndexer:IndexCustomGameObjectProperties (string,int,UnityEngine.GameObject)
+UnityEditor.Search.AssetIndexer:IndexObjects (UnityEngine.GameObject[],string,string,string,bool)
+UnityEditor.Search.AssetIndexer:IndexScene (string,bool)
+UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.10/Editor/Converter/MaterialReferenceBuilder.cs Line: 133)
+
+ -> (artifact id: '72da4a59178283babd5e782905e450dc') in 0.035089 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/Universal RP/14.0.10/URP Package Samples/Decals/BlobShadow/BlobShadow
+  artifactKey: Guid(1dbf9dfce8fd3453498cc77bb873bb30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Universal RP/14.0.10/URP Package Samples/Decals/BlobShadow/BlobShadow using Guid(1dbf9dfce8fd3453498cc77bb873bb30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '20037ab16102fdf30de93ac966ff35a7') in 0.007316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Samples/Universal RP/14.0.10/URP Package Samples/RendererFeatures/KeepFrame/KeepFrame.unity
+  artifactKey: Guid(c06589f423b034431a4fbad7456d5847) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Universal RP/14.0.10/URP Package Samples/RendererFeatures/KeepFrame/KeepFrame.unity using Guid(c06589f423b034431a4fbad7456d5847) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2d9b179a3b6a5fdb11dae54935ec4abf') in 0.008765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Samples/Universal RP/14.0.10/URP Package Samples/SharedAssets/Materials/DarkGray.mat
+  artifactKey: Guid(a5fef8e8f920d422692b573b553f9c2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Universal RP/14.0.10/URP Package Samples/SharedAssets/Materials/DarkGray.mat using Guid(a5fef8e8f920d422692b573b553f9c2b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '78f8f578b7fbff16ed01447a49e466b4') in 0.018520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Samples/Universal RP/14.0.10/URP Package Samples/RendererFeatures/DepthBlit/DepthBlit.unity
+  artifactKey: Guid(568375e52467c6448a7d68fc68188c34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Universal RP/14.0.10/URP Package Samples/RendererFeatures/DepthBlit/DepthBlit.unity using Guid(568375e52467c6448a7d68fc68188c34) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9ea54606e51851d4d2db77e0ddc4787c') in 0.007295 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Samples/Universal RP/14.0.10/URP Package Samples/CameraStacking/3D Skybox/Materials/HighBuilding.mat
+  artifactKey: Guid(da0cf493aeabf402d984cd60dba953c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Universal RP/14.0.10/URP Package Samples/CameraStacking/3D Skybox/Materials/HighBuilding.mat using Guid(da0cf493aeabf402d984cd60dba953c7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1f6072139f74743b5036dcb562200d15') in 0.016189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Samples/Universal RP/14.0.10/URP Package Samples/SharedAssets/Materials/MatteCheckerFloor.mat
+  artifactKey: Guid(7e7ea892f3527412a9f7dec5c9b7ef76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Universal RP/14.0.10/URP Package Samples/SharedAssets/Materials/MatteCheckerFloor.mat using Guid(7e7ea892f3527412a9f7dec5c9b7ef76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ac47e500324551667efb3b48b6d112cc') in 0.019294 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Medium/M_Bolt_Yellow_x1.prefab
+  artifactKey: Guid(d2278188752279241a578ad66f558d0f) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Medium/M_Bolt_Yellow_x1.prefab using Guid(d2278188752279241a578ad66f558d0f) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)  -> (artifact id: 'd4b7002bb7397ab121e03e3c56fce2da') in 0.021064 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Medium/M_Bolt_White_x1.prefab
+  artifactKey: Guid(03d752d21d2760b4bba2aae8e4d86aef) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Medium/M_Bolt_White_x1.prefab using Guid(03d752d21d2760b4bba2aae8e4d86aef) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)  -> (artifact id: '8c2b8ee85f312adb5cd376671b92a7ad') in 0.016505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Samples/Universal RP/14.0.10/URP Package Samples/Shaders/Lit/Textures
+  artifactKey: Guid(c2d289074b20e41a7ac1b34aeb91678a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Universal RP/14.0.10/URP Package Samples/Shaders/Lit/Textures using Guid(c2d289074b20e41a7ac1b34aeb91678a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd6a90c411e3f7c95b51df47767806faf') in 0.007247 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Samples/Universal RP/14.0.10/URP Package Samples/Lighting/Reflection Probes/Reflection Probes/ReflectionProbe-5.exr
+  artifactKey: Guid(df13e49da578a044da8a87b631c5c9e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Universal RP/14.0.10/URP Package Samples/Lighting/Reflection Probes/Reflection Probes/ReflectionProbe-5.exr using Guid(df13e49da578a044da8a87b631c5c9e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '17d2cacaaa7534d949debff2f51f8f2c') in 0.014987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/YughuesFreeSandMaterials/Preview/Sc_Preview/LightingData.asset
+  artifactKey: Guid(dc5ab5107ce957b47b33e428451e2175) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/YughuesFreeSandMaterials/Preview/Sc_Preview/LightingData.asset using Guid(dc5ab5107ce957b47b33e428451e2175) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)  -> (artifact id: '5578c19cc7a1c866afb0ca48981ac5c8') in 0.016108 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Samples/Universal RP/14.0.10/URP Package Samples/CameraStacking/3D Skybox/3DSkybox.unity
+  artifactKey: Guid(8781056d0ad464ffd85d0927f3bf4f76) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Samples/Universal RP/14.0.10/URP Package Samples/CameraStacking/3D Skybox/3DSkybox.unity using Guid(8781056d0ad464ffd85d0927f3bf4f76) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Opening scene 'Assets/Samples/Universal RP/14.0.10/URP Package Samples/CameraStacking/3D Skybox/3DSkybox.unity additively'
+Loaded scene 'Assets/Samples/Universal RP/14.0.10/URP Package Samples/CameraStacking/3D Skybox/3DSkybox.unity'
+	Deserialize:            11.993 ms
+	Integration:            62.091 ms
+	Integration of assets:  1.160 ms
+	Thread Wait Time:       0.021 ms
+	Total Operation Time:   75.265 ms
+Renderer at <b>index 1</b> is missing for camera <b>City Skybox Camera</b>, falling back to Default Renderer. <b>URPSettings_Renderer</b>
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.UniversalAdditionalCameraData:get_scriptableRenderer () (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.10/Runtime/UniversalAdditionalCameraData.cs:526)
+UnityEngine.Rendering.Universal.UniversalAdditionalCameraData:OnDestroy () (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.10/Runtime/UniversalAdditionalCameraData.cs:819)
+UnityEditor.SceneManagement.EditorSceneManager:CloseScene (UnityEngine.SceneManagement.Scene,bool)
+UnityEditor.Search.AssetIndexer:IndexScene (string,bool)
+UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.10/Runtime/UniversalAdditionalCameraData.cs Line: 526)
+
+Renderer at <b>index 1</b> is missing for camera <b>Planet Skybox Camera</b>, falling back to Default Renderer. <b>URPSettings_Renderer</b>
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.UniversalAdditionalCameraData:get_scriptableRenderer () (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.10/Runtime/UniversalAdditionalCameraData.cs:526)
+UnityEngine.Rendering.Universal.UniversalAdditionalCameraData:OnDestroy () (at ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.10/Runtime/UniversalAdditionalCameraData.cs:819)
+UnityEditor.SceneManagement.EditorSceneManager:CloseScene (UnityEngine.SceneManagement.Scene,bool)
+UnityEditor.Search.AssetIndexer:IndexScene (string,bool)
+UnityEditor.Search.AssetIndexer:IndexSceneDocument (string,bool)
+UnityEditor.Search.AssetIndexer:IndexDocument (string,bool)
+UnityEditor.Search.SearchIndexEntryImporter:OnImportAsset (UnityEditor.AssetImporters.AssetImportContext)
+UnityEditor.AssetImporters.ScriptedImporter:GenerateAssetData (UnityEditor.AssetImporters.AssetImportContext)
+
+(Filename: ./Library/PackageCache/com.unity.render-pipelines.universal@14.0.10/Runtime/UniversalAdditionalCameraData.cs Line: 526)
+
+ -> (artifact id: '23350605b8a6bb485d5673afd8deb28a') in 0.196501 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 213
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/URPSettings_Renderer.asset
+  artifactKey: Guid(f1c582878d836b34ba8dbae394c89f16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/URPSettings_Renderer.asset using Guid(f1c582878d836b34ba8dbae394c89f16) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6dc7852425313634fd28a7f58d39405d') in 0.013516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000715 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Blue to Purple - Vertical.asset
+  artifactKey: Guid(479a66fa4b094512a62b0a8e553ad95a) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Blue to Purple - Vertical.asset using Guid(479a66fa4b094512a62b0a8e553ad95a) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)  -> (artifact id: '90ffe5b0ea242cd41b95d9c0f7406ae6') in 0.013118 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Samples/Universal RP/14.0.10/URP Package Samples/RendererFeatures/BlitToRTHandle/BlitToRTHandlePipelineAsset.asset
+  artifactKey: Guid(f8757002a80aea449a02fb22d176db49) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Samples/Universal RP/14.0.10/URP Package Samples/RendererFeatures/BlitToRTHandle/BlitToRTHandlePipelineAsset.asset using Guid(f8757002a80aea449a02fb22d176db49) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)  -> (artifact id: 'f1a98fefe91ed872b8ef399e99ef849c') in 0.010207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/Universal RP/14.0.10/URP Package Samples/RendererFeatures/OcclusionEffect/OcclusionEffectPipeline.asset
+  artifactKey: Guid(bd7253799736341e9958ba15f3ee81a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Universal RP/14.0.10/URP Package Samples/RendererFeatures/OcclusionEffect/OcclusionEffectPipeline.asset using Guid(bd7253799736341e9958ba15f3ee81a7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '11cdd7775c408a51c523a35447a2920d') in 0.018673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Samples/Universal RP/14.0.10/URP Package Samples/CameraStacking/SplitScreen/SplitScreen.unity
+  artifactKey: Guid(2e377123eac7e443ebe0e7374f21089a) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Samples/Universal RP/14.0.10/URP Package Samples/CameraStacking/SplitScreen/SplitScreen.unity using Guid(2e377123eac7e443ebe0e7374f21089a) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Opening scene 'Assets/Samples/Universal RP/14.0.10/URP Package Samples/CameraStacking/SplitScreen/SplitScreen.unity additively'
+Loaded scene 'Assets/Samples/Universal RP/14.0.10/URP Package Samples/CameraStacking/SplitScreen/SplitScreen.unity'
+	Deserialize:            19.495 ms
+	Integration:            2.606 ms
+	Integration of assets:  0.557 ms
+	Thread Wait Time:       0.019 ms
+	Total Operation Time:   22.677 ms
+ -> (artifact id: '771191926496ad9841730336761c42c8') in 0.037762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 27
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Samples/Universal RP/14.0.10/URP Package Samples/LensFlares/SunFlare.unity
+  artifactKey: Guid(65fbe97037fe7420aa67ea3b2f6c0ffa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Universal RP/14.0.10/URP Package Samples/LensFlares/SunFlare.unity using Guid(65fbe97037fe7420aa67ea3b2f6c0ffa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '36c57374becb08a1c52ed6b2881eaf37') in 0.008256 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/Samples/Universal RP/14.0.10/URP Package Samples/Shaders/Lit/Lit/LightingData.asset
+  artifactKey: Guid(7632e9382edaf42eea71fffda301b7e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Universal RP/14.0.10/URP Package Samples/Shaders/Lit/Lit/LightingData.asset using Guid(7632e9382edaf42eea71fffda301b7e4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '48eefa7e8aaf863e737a276a43d154a5') in 0.010973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Samples/Universal RP/14.0.10
+  artifactKey: Guid(53704ad0fc05ada458669bc4ef89cc7d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Universal RP/14.0.10 using Guid(53704ad0fc05ada458669bc4ef89cc7d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8b548e981a683aac8add67dcee18f228') in 0.008132 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Samples/Universal RP/14.0.10/URP Package Samples/Shaders/Lit/Materials/WithOcclusion.mat
+  artifactKey: Guid(615945db2db8246c39b806c45ece2fa7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Universal RP/14.0.10/URP Package Samples/Shaders/Lit/Materials/WithOcclusion.mat using Guid(615945db2db8246c39b806c45ece2fa7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c10462bec7c51a2a8262ec6ddd77a3d5') in 0.010608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Medium/M_Pipe_Yellow_07.prefab
+  artifactKey: Guid(3539f8c05602fef4b9136d0ffcae729c) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Medium/M_Pipe_Yellow_07.prefab using Guid(3539f8c05602fef4b9136d0ffcae729c) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)  -> (artifact id: 'e53a3ffb8b6fd1efadbc460eb4bc9a2d') in 0.018728 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Medium/M_Pipe_L200_White_02.prefab
+  artifactKey: Guid(0ecb5f922be3e4845ba974a138e30196) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Medium/M_Pipe_L200_White_02.prefab using Guid(0ecb5f922be3e4845ba974a138e30196) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)  -> (artifact id: '2d5439e4fc9efdb3cbe5f88439f27014') in 0.009523 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Medium/M_Pipe_L50_White_03.prefab
+  artifactKey: Guid(471a9819acca1d34c98fd8fee901ffcf) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Medium/M_Pipe_L50_White_03.prefab using Guid(471a9819acca1d34c98fd8fee901ffcf) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)  -> (artifact id: 'c1bac5705838a80f6813bb698a37f19c') in 0.009470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Small/S_Cap_White_03.prefab
+  artifactKey: Guid(e02281a7047b27449889dbfa0dbb6db9) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Small/S_Cap_White_03.prefab using Guid(e02281a7047b27449889dbfa0dbb6db9) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)  -> (artifact id: '97747e64b07d4e43080eb9f9f574ddf9') in 0.025127 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Medium/M_Pipe_Corner90_White_13.prefab
+  artifactKey: Guid(e23780c872e30e845b73c12af43ec47c) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Medium/M_Pipe_Corner90_White_13.prefab using Guid(e23780c872e30e845b73c12af43ec47c) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)  -> (artifact id: '2290d295d73b41e6442e09d2261349e6') in 0.008379 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Mesh/Small/sSupport_02.FBX
+  artifactKey: Guid(893edf84204ad8c418e6a4debde92a4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Mesh/Small/sSupport_02.FBX using Guid(893edf84204ad8c418e6a4debde92a4c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '42941d7a1a58c5f5c3643d7250fc9f90') in 0.044492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time since last request: 0.000901 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.00/Textures/Pipe_19_DIFFUSE.png
+  artifactKey: Guid(9980c6318d4b19c4eaa0c12e052ab2c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.00/Textures/Pipe_19_DIFFUSE.png using Guid(9980c6318d4b19c4eaa0c12e052ab2c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3634ab26c5734b036e35452cf9b3543d') in 0.023622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Mesh/ModularSystemPipe/MSP_Valve02_BoltX17_02_LOD0.FBX
+  artifactKey: Guid(e2e44d041ce443445b9681f5e7b30acb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Mesh/ModularSystemPipe/MSP_Valve02_BoltX17_02_LOD0.FBX using Guid(e2e44d041ce443445b9681f5e7b30acb) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f1a91fc9ce1b820623d4119d4d295ff3') in 0.019647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Small/S_Bolt_Yellow_x8.prefab
+  artifactKey: Guid(285a5a8f019b1fb42b737c4fe85219ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Small/S_Bolt_Yellow_x8.prefab using Guid(285a5a8f019b1fb42b737c4fe85219ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ae32e61aaa04d023ac738fd23e0d9086') in 0.008881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Textures/Yellow/Pipe_Yellow_05_AO.png
+  artifactKey: Guid(7f213df138da7804ca855ad81e12abd4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Textures/Yellow/Pipe_Yellow_05_AO.png using Guid(7f213df138da7804ca855ad81e12abd4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'aa9a4788f71360d1f6c6e161ece25ab1') in 0.022435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.00/Prefabs/Pipe_13.prefab
+  artifactKey: Guid(fafaa8409d59b3e4699abb128ae99a91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.00/Prefabs/Pipe_13.prefab using Guid(fafaa8409d59b3e4699abb128ae99a91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c1cd053e091991d37dc6e2fbbe084510') in 0.015380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Mesh/Small/sValve_01.FBX
+  artifactKey: Guid(0506443ec55381b4391c559030ca7326) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Mesh/Small/sValve_01.FBX using Guid(0506443ec55381b4391c559030ca7326) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dcd5ac8266fa4ce62f4c1bf08e69fc74') in 0.023456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Medium/M_Pipe_Corner90_White_13.prefab
+  artifactKey: Guid(e23780c872e30e845b73c12af43ec47c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Medium/M_Pipe_Corner90_White_13.prefab using Guid(e23780c872e30e845b73c12af43ec47c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cc483a7a97e56583a4f83f141f55599b') in 0.011656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Medium/M_Cap_White_Flat_Mesh04.prefab
+  artifactKey: Guid(a0367c36cafcc5b41a54eea440038180) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Medium/M_Cap_White_Flat_Mesh04.prefab using Guid(a0367c36cafcc5b41a54eea440038180) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e316f58e7273546a2f7888ae59cfad16') in 0.013176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Mesh/Small/sPipe_03.FBX
+  artifactKey: Guid(21b7b973d723f254abea887b4375de94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Mesh/Small/sPipe_03.FBX using Guid(21b7b973d723f254abea887b4375de94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b844276f780d7db608a024843867da11') in 0.019130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Small/S_Support_Full_021.prefab
+  artifactKey: Guid(198e37df54dd7c041a06e8a6f732c025) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Small/S_Support_Full_021.prefab using Guid(198e37df54dd7c041a06e8a6f732c025) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3038707955a564c6bb12266017f9d682') in 0.025659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Medium/M_Pipe_Corner90_White_16.prefab
+  artifactKey: Guid(ab785baba58e2b846b91e763619466d3) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Medium/M_Pipe_Corner90_White_16.prefab using Guid(ab785baba58e2b846b91e763619466d3) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)  -> (artifact id: '1e62323486acf47cffc57fa6ab4eb5fa') in 0.019939 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.00/Mesh/14.FBX
+  artifactKey: Guid(291076eaabf71014eb9d8147bc0ffc56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.00/Mesh/14.FBX using Guid(291076eaabf71014eb9d8147bc0ffc56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c8ced904c80dbb2cefad1a3be5141162') in 0.014548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.00/Mesh/09_LOD0.FBX
+  artifactKey: Guid(f111c7915a86ed34aac78f69e566ee54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.00/Mesh/09_LOD0.FBX using Guid(f111c7915a86ed34aac78f69e566ee54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9aa282d5a8234888d5273a75fcfb79d3') in 0.015984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Mesh/Bolt_01.FBX
+  artifactKey: Guid(2da1084214a7d69489cc3f64f3690311) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Mesh/Bolt_01.FBX using Guid(2da1084214a7d69489cc3f64f3690311) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ab808c250143528ce2c2baf62ebd5043') in 0.014495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Small/S_Pipe_White_06.prefab
+  artifactKey: Guid(6f28879267c64f44394bd5643f8fa93e) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Small/S_Pipe_White_06.prefab using Guid(6f28879267c64f44394bd5643f8fa93e) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)  -> (artifact id: '0af2b7a39f68d784005a0f281e9c37d1') in 0.018943 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Small/S_Pipe_White_08.prefab
+  artifactKey: Guid(ec5926a6fd982a541b72bdc3f9022e73) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Small/S_Pipe_White_08.prefab using Guid(ec5926a6fd982a541b72bdc3f9022e73) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)  -> (artifact id: '27e790bc09763a58775fbf1d424e4b4d') in 0.025719 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Small/S_Pipe_Corner180_Yellow_09.prefab
+  artifactKey: Guid(dd0e0f2cee4a3b049a3d86a546c1d5c0) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Small/S_Pipe_Corner180_Yellow_09.prefab using Guid(dd0e0f2cee4a3b049a3d86a546c1d5c0) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)  -> (artifact id: '800395a3ac8b5f355f26cd5a8ca0b243') in 0.015837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Small/S_Support_02.prefab
+  artifactKey: Guid(742af50c887136541a3b4380087cb519) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Small/S_Support_02.prefab using Guid(742af50c887136541a3b4380087cb519) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)  -> (artifact id: '92f418736029d76008d2cf0981dcacd1') in 0.015056 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Small/S_Pipe_Corner90_White_15.prefab
+  artifactKey: Guid(23cc4980cd02853428256a8d9b6c84d2) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Small/S_Pipe_Corner90_White_15.prefab using Guid(23cc4980cd02853428256a8d9b6c84d2) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)  -> (artifact id: 'ae89a679eb90ea4dcf822ce6ece2e1ef') in 0.013714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Samples/Universal RP/14.0.10/URP Package Samples/RendererFeatures/BlitToRTHandle/BlitToRTHandleRenderer.asset
+  artifactKey: Guid(54e4ee98c91a93a4e903d94d1491db38) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Samples/Universal RP/14.0.10/URP Package Samples/RendererFeatures/BlitToRTHandle/BlitToRTHandleRenderer.asset using Guid(54e4ee98c91a93a4e903d94d1491db38) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)  -> (artifact id: '3f0c365d5515af5c4aec99c5de574b5a') in 0.008686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/Universal RP/14.0.10/URP Package Samples/LensFlares/Animation/Main Camera.controller
+  artifactKey: Guid(3f33b2d90a2604ba088262c594b2f478) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Universal RP/14.0.10/URP Package Samples/LensFlares/Animation/Main Camera.controller using Guid(3f33b2d90a2604ba088262c594b2f478) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '74f39e1bc218f4129ec59ebc7fabe7b8') in 0.022142 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Samples/Universal RP/14.0.10/URP Package Samples/RendererFeatures/TrailEffect/DepthNormal.mat
+  artifactKey: Guid(81575f7a6ac8d4be4b099acee34e7d76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Universal RP/14.0.10/URP Package Samples/RendererFeatures/TrailEffect/DepthNormal.mat using Guid(81575f7a6ac8d4be4b099acee34e7d76) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd0b4836bdc73100258994020b526d6e0') in 0.009365 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Scenes/08 - Improved Text Alignment.unity
+  artifactKey: Guid(5fe2257128d9401fad0790f581dc8a6f) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Scenes/08 - Improved Text Alignment.unity using Guid(5fe2257128d9401fad0790f581dc8a6f) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Opening scene 'Assets/TextMesh Pro/Examples & Extras/Scenes/08 - Improved Text Alignment.unity additively'
+LightingSettings: switching bake backend from 1 to 0.
+Loaded scene 'Assets/TextMesh Pro/Examples & Extras/Scenes/08 - Improved Text Alignment.unity'
+	Deserialize:            22.355 ms
+	Integration:            2.531 ms
+	Integration of assets:  0.497 ms
+	Thread Wait Time:       0.071 ms
+	Total Operation Time:   25.455 ms
+ -> (artifact id: '319760886465db57cc1f532ef711588f') in 0.034185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.00/Prefabs/Bolt.prefab
+  artifactKey: Guid(35c28867a9c92774e9dc790e96dc782b) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.00/Prefabs/Bolt.prefab using Guid(35c28867a9c92774e9dc790e96dc782b) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)  -> (artifact id: 'a9a24ce4a9d0e2cb8a6a1348db944555') in 0.027534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Medium/M_Cap_White_Flat_Mesh04.prefab
+  artifactKey: Guid(a0367c36cafcc5b41a54eea440038180) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Medium/M_Cap_White_Flat_Mesh04.prefab using Guid(a0367c36cafcc5b41a54eea440038180) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)  -> (artifact id: 'f4873be35c1bfabd5dcb0f04e275e5ec') in 0.011079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Samples/Universal RP/14.0.10/URP Package Samples/RendererFeatures/TrailEffect/TrailEffect.unity
+  artifactKey: Guid(1fd32d0ab3fe14c7581a8eef40473fba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Universal RP/14.0.10/URP Package Samples/RendererFeatures/TrailEffect/TrailEffect.unity using Guid(1fd32d0ab3fe14c7581a8eef40473fba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8294bd014186ed3ba3fa5a5d92fcb931') in 0.007328 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Samples/Universal RP/14.0.10/URP Package Samples/RendererFeatures/DistortTunnel/Plane/plane.fbx
+  artifactKey: Guid(27e8c81c66b852f4b8a7544bc62dc04d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Universal RP/14.0.10/URP Package Samples/RendererFeatures/DistortTunnel/Plane/plane.fbx using Guid(27e8c81c66b852f4b8a7544bc62dc04d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd39fa3c1f11fcde5f2f8c4b37136fa6c') in 0.014495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets/DropCap Numbers.asset
+  artifactKey: Guid(14aa93acbb234d16aaef0e8b46814db6) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets/DropCap Numbers.asset using Guid(14aa93acbb234d16aaef0e8b46814db6) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)  -> (artifact id: '4cc31321fbf5cc79daab41374bb43ab3') in 0.009948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Samples/Universal RP/14.0.10/URP Package Samples/Lighting/Reflection Probes/Reflection Probes/ReflectionProbe-8.exr
+  artifactKey: Guid(2d19bc0bcf20a8a41816c566589d33f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Universal RP/14.0.10/URP Package Samples/Lighting/Reflection Probes/Reflection Probes/ReflectionProbe-8.exr using Guid(2d19bc0bcf20a8a41816c566589d33f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2dea9b9a9966e2494881a4a6ee774c09') in 0.016188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/Universal RP/14.0.10/URP Package Samples/Shaders/Lit/Materials/OcclusionOn.mat
+  artifactKey: Guid(71d0ae4a494e24fc8842080c57cdeee7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Universal RP/14.0.10/URP Package Samples/Shaders/Lit/Materials/OcclusionOn.mat using Guid(71d0ae4a494e24fc8842080c57cdeee7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'fd95907667e942aca5a69234636c3613') in 0.012764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Medium/M_Pipe_L25_Yellow_04.prefab
+  artifactKey: Guid(ca7331e16bc9d9e4490f9ce3da1907e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Medium/M_Pipe_L25_Yellow_04.prefab using Guid(ca7331e16bc9d9e4490f9ce3da1907e9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '24484d34cb39d7957741030b1301fc52') in 0.010513 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Mesh/Small/sPipeC90_13.FBX
+  artifactKey: Guid(ccfff15260e6b1d41aa6894fc845e79a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Mesh/Small/sPipeC90_13.FBX using Guid(ccfff15260e6b1d41aa6894fc845e79a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'acf22055564f5c01b60b2023cb3bee54') in 0.016091 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.002571 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Mesh/Small/sPipeC90_15.FBX
+  artifactKey: Guid(ebdebd9336f61a84698c244b2c9b9979) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Mesh/Small/sPipeC90_15.FBX using Guid(ebdebd9336f61a84698c244b2c9b9979) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4218035324b9ec5802311d45d011991f') in 0.016618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Example/Scripts
+  artifactKey: Guid(a39602df97dac57438fe93cfe592ec7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Example/Scripts using Guid(a39602df97dac57438fe93cfe592ec7a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6ff27577d758f4e71390633ba7e141b2') in 0.009649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Mesh/Small/sPipeC90_16.FBX
+  artifactKey: Guid(355449dea0e8b2f45be4889d3a0326ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Mesh/Small/sPipeC90_16.FBX using Guid(355449dea0e8b2f45be4889d3a0326ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8356da2641f82f9fd842a2c344618a52') in 0.016584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Mesh/Pipe_10_LOD0.FBX
+  artifactKey: Guid(73a4bc52ad4f77340b8227fa30dca075) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Mesh/Pipe_10_LOD0.FBX using Guid(73a4bc52ad4f77340b8227fa30dca075) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a8e8a3fcafd64df748b2e79a48e5e895') in 0.014103 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Samples/Universal RP/14.0.10/URP Package Samples/Shaders/Lit/Prefabs/3Podium.prefab
+  artifactKey: Guid(7689a0ffc4ed74a58b7298d31e1d3283) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Samples/Universal RP/14.0.10/URP Package Samples/Shaders/Lit/Prefabs/3Podium.prefab using Guid(7689a0ffc4ed74a58b7298d31e1d3283) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)  -> (artifact id: 'a0398fe63c10f575e48e8b504e57e2ae') in 0.015960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 51
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Textures/PipeValve_01_NORMAL.png
+  artifactKey: Guid(6c2085b18b14fe04fa4dc016a1cb2a67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Textures/PipeValve_01_NORMAL.png using Guid(6c2085b18b14fe04fa4dc016a1cb2a67) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '885d452578e2dfebc6033b2c4db7fccd') in 0.017669 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Samples/Universal RP/14.0.10/URP Package Samples/RendererFeatures/TrailEffect/TrailEffect/LightingData.asset
+  artifactKey: Guid(13289af5aaca14a8eb4484dd615de3d6) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Samples/Universal RP/14.0.10/URP Package Samples/RendererFeatures/TrailEffect/TrailEffect/LightingData.asset using Guid(13289af5aaca14a8eb4484dd615de3d6) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)  -> (artifact id: 'f3f71c27401d5a2ad06392fc5a678f6b') in 0.007908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Mesh/Pipe_07.FBX
+  artifactKey: Guid(4cb30bd4cbb8c514bbeac2284404f315) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Mesh/Pipe_07.FBX using Guid(4cb30bd4cbb8c514bbeac2284404f315) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '04062f081678a8f2a6f50516199a2fbb') in 0.016006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Textures/Yellow/Pipe_Yellow_09_DIFFUSE.png
+  artifactKey: Guid(67d12f2f5b461c240a72122cd0682992) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Textures/Yellow/Pipe_Yellow_09_DIFFUSE.png using Guid(67d12f2f5b461c240a72122cd0682992) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7e0646b57a5509332c49ee058185415f') in 0.015213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Samples/Universal RP/14.0.10/URP Package Samples/Shaders/Lit/Prefabs/5Podium.prefab
+  artifactKey: Guid(14e48a9663ab3412e8ff39002bca91aa) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Samples/Universal RP/14.0.10/URP Package Samples/Shaders/Lit/Prefabs/5Podium.prefab using Guid(14e48a9663ab3412e8ff39002bca91aa) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)  -> (artifact id: 'd60fc6e59e71378d71a41ad7ab4a799b') in 0.016925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 76
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Medium/M_Cap_White_01.prefab
+  artifactKey: Guid(8be98f2109fb83f4493e37a5978de407) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Medium/M_Cap_White_01.prefab using Guid(8be98f2109fb83f4493e37a5978de407) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3379d844184849c8a4526f65212de8c5') in 0.010779 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Medium/M_Pipe_Corner90_Yellow_13.prefab
+  artifactKey: Guid(6e24f27baab3b1c45bed077c830fbc94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Medium/M_Pipe_Corner90_Yellow_13.prefab using Guid(6e24f27baab3b1c45bed077c830fbc94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4da442d02c5cd88e44c69568166809da') in 0.014327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Mesh/Small/sPipe_04.FBX
+  artifactKey: Guid(44a167bfc615a1c47bccfec7adcb17a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Mesh/Small/sPipe_04.FBX using Guid(44a167bfc615a1c47bccfec7adcb17a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '188a9b1f9dfac3ce2c2570c29b58bacc') in 0.016008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Mesh/Manometr.FBX
+  artifactKey: Guid(e3338ded7107b064eacb887756bf8792) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Mesh/Manometr.FBX using Guid(e3338ded7107b064eacb887756bf8792) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8b2b1acb05200d39faaf35157845c038') in 0.014690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Medium/M_Pipe_L200_White_02.prefab
+  artifactKey: Guid(0ecb5f922be3e4845ba974a138e30196) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Medium/M_Pipe_L200_White_02.prefab using Guid(0ecb5f922be3e4845ba974a138e30196) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'dd9ec0215f0d3524b7e4178a0be17fd2') in 0.011639 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Samples/Universal RP/14.0.10/URP Package Samples/Shaders/Lit/Lit/LightingData.asset
+  artifactKey: Guid(7632e9382edaf42eea71fffda301b7e4) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Samples/Universal RP/14.0.10/URP Package Samples/Shaders/Lit/Lit/LightingData.asset using Guid(7632e9382edaf42eea71fffda301b7e4) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)  -> (artifact id: '3649b3d4d2f5a3205498b8390a801f66') in 0.008725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Medium/M_Bolt_White_x8.prefab
+  artifactKey: Guid(6779940b4df95a245a64d8fd2e7d1084) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Medium/M_Bolt_White_x8.prefab using Guid(6779940b4df95a245a64d8fd2e7d1084) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e0aa669349916597c9fa2b1e988e9c28') in 0.008977 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Mesh/Pipe_16.FBX
+  artifactKey: Guid(e2710c1927e2d7d47ad74d978afa9d8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Mesh/Pipe_16.FBX using Guid(e2710c1927e2d7d47ad74d978afa9d8b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '52f7465e7e69415ae3f8bd7aa0a054e1') in 0.015950 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Samples/Universal RP/14.0.10/URP Package Samples/LensFlares/LensFlarePresets/Arena_80s.asset
+  artifactKey: Guid(8a65d7c096f124bd78c6783701a6588e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Universal RP/14.0.10/URP Package Samples/LensFlares/LensFlarePresets/Arena_80s.asset using Guid(8a65d7c096f124bd78c6783701a6588e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9467038b36a608ff35c3559beb10706c') in 0.010637 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.00/Textures/15_DIFFUSE.png
+  artifactKey: Guid(1cce9fd1e139969419621c5b74a1ebcf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.00/Textures/15_DIFFUSE.png using Guid(1cce9fd1e139969419621c5b74a1ebcf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8d69e03bfb99695e5f1123adf8a38f7d') in 0.024388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset
+  artifactKey: Guid(125cb55b44b24c4393181402bc6200e6) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset using Guid(125cb55b44b24c4393181402bc6200e6) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)  -> (artifact id: '852bc9cb61600f52c2e945357311a97c') in 0.013598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/Samples/Universal RP/14.0.10/URP Package Samples/Decals/PaintSplat/PaintSplatPipeline.asset
+  artifactKey: Guid(38ffc354913d6414e9bea08e09ba196b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Samples/Universal RP/14.0.10/URP Package Samples/Decals/PaintSplat/PaintSplatPipeline.asset using Guid(38ffc354913d6414e9bea08e09ba196b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b5b10b183fb2a2c2c01651266ccd1450') in 0.014384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.138320 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Small/S_Pipe_Yellow_06.prefab
+  artifactKey: Guid(adf72122e46fa634fb2ffcf9a47e3a9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Small/S_Pipe_Yellow_06.prefab using Guid(adf72122e46fa634fb2ffcf9a47e3a9e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b7b57799195024df435b4b9ebaa08666') in 0.012346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000370 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.00/Mesh/08_LOD0.FBX
+  artifactKey: Guid(591f04fc4c24ee64b8ddc92c147e41dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.00/Mesh/08_LOD0.FBX using Guid(591f04fc4c24ee64b8ddc92c147e41dc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '76dcba176c3b8e7934caeeaae807bbcb') in 0.024695 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Mesh/Small/sCap_04.FBX
+  artifactKey: Guid(043aff31dc884934dacca6436c01f286) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Mesh/Small/sCap_04.FBX using Guid(043aff31dc884934dacca6436c01f286) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1bfff5411411866f3c54edfdb132880f') in 0.015448 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000559 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Medium/M_Support_02.prefab
+  artifactKey: Guid(6ba1055de98696449afd992a05bf062c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Medium/M_Support_02.prefab using Guid(6ba1055de98696449afd992a05bf062c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2178c3e2ccd0f61473eaa6c2cd3323d6') in 0.022211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Mesh/Bolt_x17_03.FBX
+  artifactKey: Guid(1c76b39eadb26484ebc4fe16f5fb36c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Mesh/Bolt_x17_03.FBX using Guid(1c76b39eadb26484ebc4fe16f5fb36c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'cccf9aaf79927e2876e61a5662e03233') in 0.016570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Mesh/Materials/Cap_0_White.mat
+  artifactKey: Guid(c5db2e6bf327f8640b3ae0d679c831d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Mesh/Materials/Cap_0_White.mat using Guid(c5db2e6bf327f8640b3ae0d679c831d7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '8013626828ee918c20b124da45cdd759') in 0.025288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Mesh/Manometr_LOD0.FBX
+  artifactKey: Guid(fca38da181185ce4abe9f60755ffe7a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Mesh/Manometr_LOD0.FBX using Guid(fca38da181185ce4abe9f60755ffe7a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7af13360ebd7c2fa4946d5624ea872db') in 0.015163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Textures/White/Pipe_White_05_SPECULAR.png
+  artifactKey: Guid(00cb7723cb0834e4ba1f76e1bdd48259) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Textures/White/Pipe_White_05_SPECULAR.png using Guid(00cb7723cb0834e4ba1f76e1bdd48259) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '09032a723bc43b3b7ff9c0abceea9819') in 0.027378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000467 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Small
+  artifactKey: Guid(1e36022766999d34fb92f616b35f4c30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Small using Guid(1e36022766999d34fb92f616b35f4c30) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '87df93da23ef01129210423f0299f232') in 0.008193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.00/Mesh/Materials/Bolt.mat
+  artifactKey: Guid(f920f797cbab302418bf6d297a80648a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.00/Mesh/Materials/Bolt.mat using Guid(f920f797cbab302418bf6d297a80648a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '6243e1310bb379d4e20e92945feaf084') in 0.024692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000499 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.00/Mesh/04.FBX
+  artifactKey: Guid(5c4b69135445af34b8cc6ca05f7b8683) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.00/Mesh/04.FBX using Guid(5c4b69135445af34b8cc6ca05f7b8683) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'bc04ba5693e4b6b9900982f15a39f16d') in 0.016997 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline
+  artifactKey: Guid(727139fb86907f04b879167e8f06ad86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Props/Industrial/Pipeline using Guid(727139fb86907f04b879167e8f06ad86) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'f60b9bc764d7f9d9252677d91fd80083') in 0.007354 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Textures/White/Cap_White_01_DIFFUSE.png
+  artifactKey: Guid(af468293566ac5a478947f03d29ed25d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Textures/White/Cap_White_01_DIFFUSE.png using Guid(af468293566ac5a478947f03d29ed25d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '36c4445c3f24ea75308e10771be0b9f9') in 0.017086 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.00/Textures/Pipe_06_DIFFUSE.png
+  artifactKey: Guid(a948a9bcdcc2e7643bae4b711f7b7019) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.00/Textures/Pipe_06_DIFFUSE.png using Guid(a948a9bcdcc2e7643bae4b711f7b7019) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '98fa2076db191c6487ca5b79e30c1dc8') in 0.022881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Small/S_Cap_Yellow_Flat_Mesh04.prefab
+  artifactKey: Guid(027192c159e470444a28e2b7c90859bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Small/S_Cap_Yellow_Flat_Mesh04.prefab using Guid(027192c159e470444a28e2b7c90859bf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '36a2cb1ff4bef08935a915d42b182d54') in 0.011137 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Medium
+  artifactKey: Guid(5c04d2568689df544be84a5ed8850d53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Medium using Guid(5c04d2568689df544be84a5ed8850d53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd26c28e1f774337ebe326f3aa4309338') in 0.008600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Example/Scripts/PipelineShowRoom_AD.asmdef
+  artifactKey: Guid(262e66838e51bb34d83c20931bae7fd9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Example/Scripts/PipelineShowRoom_AD.asmdef using Guid(262e66838e51bb34d83c20931bae7fd9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'd95a33bf01d95ea96d3620c971806804') in 0.015121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Mesh/Pipe_06_LOD0.FBX
+  artifactKey: Guid(3312537469d87ff4c93a9c0e5aae0724) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Mesh/Pipe_06_LOD0.FBX using Guid(3312537469d87ff4c93a9c0e5aae0724) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4e7955dbfc9a7baca40afa5f52f4c9f7') in 0.017160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Medium/M_Pipe_White_07.prefab
+  artifactKey: Guid(45ccc266a241b6645882700ee1b869f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Medium/M_Pipe_White_07.prefab using Guid(45ccc266a241b6645882700ee1b869f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'af912af65dc0209ab3482ac190179410') in 0.008734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.053170 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Medium/M_Pipe_Corner90_White_15.prefab
+  artifactKey: Guid(fc7bfbeebc906a049911498b21ff0076) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Medium/M_Pipe_Corner90_White_15.prefab using Guid(fc7bfbeebc906a049911498b21ff0076) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '2c00b159cdafd2de40765cdc6829e860') in 0.010953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Textures/Valve_02_NORMAL.png
+  artifactKey: Guid(3bda52e3f27c92140bd9313d5e3de121) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Textures/Valve_02_NORMAL.png using Guid(3bda52e3f27c92140bd9313d5e3de121) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '38e6d4f9ae34ffc146b93535cc2a994e') in 0.016572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Medium/M_Pipe_Corner180_Yellow_10.prefab
+  artifactKey: Guid(ec99be81da3bcc44b9c835a8b2af9873) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Medium/M_Pipe_Corner180_Yellow_10.prefab using Guid(ec99be81da3bcc44b9c835a8b2af9873) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '0432aba934cec5854251b984d86611b0') in 0.011065 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/README.md
+  artifactKey: Guid(9da98a2e2a4852f48850b59eca6387cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/README.md using Guid(9da98a2e2a4852f48850b59eca6387cc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '9e92c8fff6012c254d56886c3427ad64') in 0.019121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Metalic Green.mat
+  artifactKey: Guid(8b29aaa3eec7468097ff07adfcf29ac9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Metalic Green.mat using Guid(8b29aaa3eec7468097ff07adfcf29ac9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '5f15e6d2d4cad5974719ff5964e4dd33') in 0.033009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.00/Mesh/15.FBX
+  artifactKey: Guid(646ef8c756065d94fb415de547a49028) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.00/Mesh/15.FBX using Guid(646ef8c756065d94fb415de547a49028) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b2dd9fa2bd3726ff1b95e400df6fe37b') in 0.014136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/YughuesFreeSandMaterials/Textures/T_YFSM_09_n.tga
+  artifactKey: Guid(bfae690f782f49448bc585d11ff2f3ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/YughuesFreeSandMaterials/Textures/T_YFSM_09_n.tga using Guid(bfae690f782f49448bc585d11ff2f3ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '38210e256145e35240e00bbfc56f6d67') in 0.022495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/TextMesh Pro/Resources/Style Sheets
+  artifactKey: Guid(4aecb92fff08436c8303b10eab8da368) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/Style Sheets using Guid(4aecb92fff08436c8303b10eab8da368) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'c997329911e5d7d017c16b9da602b80c') in 0.007470 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Small/S_Bolt_White_x1.prefab
+  artifactKey: Guid(f957727480b063b499e2313ecb6c831f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Small/S_Bolt_White_x1.prefab using Guid(f957727480b063b499e2313ecb6c831f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '831cac739a805c9d06ebb49d3d3da42a') in 0.008857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+  artifactKey: Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader using Guid(fe393ace9b354375a9cb14cdbbc28be4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ee86ec7175276880895f396eb7535704') in 0.012029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Mesh/Pipe_01.FBX
+  artifactKey: Guid(c74ef71567af5ed48a18063fded2a6e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Mesh/Pipe_01.FBX using Guid(c74ef71567af5ed48a18063fded2a6e8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '453e1ff894ac44177af4339f18f6b437') in 0.015996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Mesh/Materials/Valve_Yellow_01.mat
+  artifactKey: Guid(7e15971e4021440459425fadd8f720ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Mesh/Materials/Valve_Yellow_01.mat using Guid(7e15971e4021440459425fadd8f720ff) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '309c9d88ad0c0f6507b04760bc8929b0') in 0.020241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+  artifactKey: Guid(1e3b057af24249748ff873be7fafee47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader using Guid(1e3b057af24249748ff873be7fafee47) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '75e40b7b39dfd898cef3b76296674874') in 0.009239 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Micro_Sub/Meshes/MicroSub.fbm/ocean-underwater-light-wallpaper-3.jpg
+  artifactKey: Guid(1d0d4eb7e0e05254faeb377b5cd5b746) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Micro_Sub/Meshes/MicroSub.fbm/ocean-underwater-light-wallpaper-3.jpg using Guid(1d0d4eb7e0e05254faeb377b5cd5b746) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '7ae78ee0ca571766d55a1de7383f56b7') in 0.020526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/YughuesFreeSandMaterials/Preview/Sc_Preview.unity
+  artifactKey: Guid(853f4e220e7e62d4a8533714f45c26c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/YughuesFreeSandMaterials/Preview/Sc_Preview.unity using Guid(853f4e220e7e62d4a8533714f45c26c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'b2ba0f78dba5db3cd7029c099a6919bb') in 0.007336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Small/S_Pipe_White_06.prefab
+  artifactKey: Guid(6f28879267c64f44394bd5643f8fa93e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Small/S_Pipe_White_06.prefab using Guid(6f28879267c64f44394bd5643f8fa93e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '22187edb47c1ba203c9a02d0cf7940ff') in 0.010575 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/YughuesFreeSandMaterials/Materials/M_YFSM_Sand05.mat
+  artifactKey: Guid(9fbbd38626fd1904daa084e924084008) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/YughuesFreeSandMaterials/Materials/M_YFSM_Sand05.mat using Guid(9fbbd38626fd1904daa084e924084008) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '1c48b373527c4bc06f00e7c88c1bc72f') in 0.012402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Textures/Support_01_DIFFUSE.png
+  artifactKey: Guid(d1036f46b0a118146a67786be3330069) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Textures/Support_01_DIFFUSE.png using Guid(d1036f46b0a118146a67786be3330069) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'af16895a31d06cb7dc3f6ef347c609eb') in 0.016092 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Micro_Sub/Scenes
+  artifactKey: Guid(24148dd31283fb24ab457e0ab59e3aa4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Micro_Sub/Scenes using Guid(24148dd31283fb24ab457e0ab59e3aa4) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '3a6a9f1faab5699b8fe2e1caa9163a21') in 0.007433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TextMesh Pro/Documentation
+  artifactKey: Guid(8e7e8f5a82a3a134e91c54efd2274ea9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Documentation using Guid(8e7e8f5a82a3a134e91c54efd2274ea9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '4b03239e9d4f778e78b0c30a53b1d894') in 0.008262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Micro_Sub
+  artifactKey: Guid(5233a0f02cae7064a843d1564a320e56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Micro_Sub using Guid(5233a0f02cae7064a843d1564a320e56) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'ea12e92d8436c246fb2f892ec9ec09ab') in 0.006891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Medium/M_Pipe_White_06.prefab
+  artifactKey: Guid(15d992c9b8c49774a869c8f7ee5fe365) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/3D Models/Props/Industrial/Pipeline/Update_1.03/Prefabs/Medium/M_Pipe_White_06.prefab using Guid(15d992c9b8c49774a869c8f7ee5fe365) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'a405b9bf2152618a6de56b920756bd1b') in 0.009188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 18
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/YughuesFreeSandMaterials/Materials/M_YFSM_Sand02.mat
+  artifactKey: Guid(b5ced793883eff9439dfb6d7848aead2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/YughuesFreeSandMaterials/Materials/M_YFSM_Sand02.mat using Guid(b5ced793883eff9439dfb6d7848aead2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: 'e344784be64e16de6c9e2f92a4f95ae2') in 0.009991 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+  artifactKey: Guid(fade42e8bc714b018fac513c043d323b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt using Guid(fade42e8bc714b018fac513c043d323b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)  -> (artifact id: '87f53e7e0014f53ba24d63d006a641fa') in 0.007744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: balancing worker count downwards
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: ќпераци€ ввода/вывода была прервана из-за завершени€ потока команд или по запросу приложени€.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
